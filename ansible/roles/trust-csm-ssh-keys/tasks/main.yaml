@@ -40,3 +40,4 @@
     line: "{{ csm_public_key['response'] }}"
     state: present
     path: /root/.ssh/authorized_keys
+    mode: '600'
